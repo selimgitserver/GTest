@@ -1,0 +1,15 @@
+14:21:18 **** Incremental Build of configuration Debug for project GoogleTest ****
+make all 
+Building file: ../test/test_operations.cpp
+Invoking: Cross G++ Compiler
+g++ -I"/home/selim/workspace/GoogleTest/gtest_src" -I"/home/selim/workspace/GoogleTest/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/test_operations.d" -MT"test/test_operations.d" -o "test/test_operations.o" "../test/test_operations.cpp"
+Finished building: ../test/test_operations.cpp
+ 
+Building target: GoogleTest
+Invoking: Cross G++ Linker
+g++  -o "GoogleTest"  ./test/test_factorial.o ./test/test_main.o ./test/test_operations.o  ./src/factorial.o ./src/operations.o  ./gtest_src/gtest/gtest-all.o   -lpthread
+Finished building target: GoogleTest
+ 
+
+14:21:19 Build Finished (took 1s.336ms)
+
