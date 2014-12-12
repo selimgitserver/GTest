@@ -54,3 +54,6 @@ Invoking: Cross G++ Linker
 g++  -o "GoogleTest"  ./test/test_factorial.o ./test/test_main.o ./test/test_operations.o  ./src/factorial.o ./src/operations.o  ./gtest_src/gtest/gtest-all.o   -lpthread
 Finished building target: GoogleTest
  
+17:31:28 **** Incremental Build of configuration Debug for project GoogleTest ****
+make all 
+make: `all' için hiçbir şey yapılmadı.
